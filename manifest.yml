@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sabin-watson-training
+  host: sabin-watson-training
+  disk_quota: 1024M
+  services:
+  - sabin-watson-training-cloudantNoSQLDB
+  - sabin-watson-training-iotf-service
